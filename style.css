@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+}
+
+.page1 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.page1-top {
+  height: 50%;
+  width: 100%;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
+}
+
+.box {
+  width: 100%;
+  height: 95vh;
+  padding: 2vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-elem {
+  height: 100%;
+  width: 30%;
+  /* background-color: royalblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box-elem > h1 {
+  color: #fff;
+  font-weight: 500;
+  position: relative;
+  font-size: 1vw;
+}
+
+.box-elem > h1::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 80%;
+  display: flex;
+  margin-top: 0.2vw;
+  left: -3%;
+  top: 0;
+  background-color: red;
+}
+
+.elemm2 > h1::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 80%;
+  display: flex;
+  margin-top: 0.2vw;
+  left: -3%;
+  top: 0;
+  background-color: rgb(24, 195, 101);
+}
+
+.elemm3 > h1::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 80%;
+  display: flex;
+  margin-top: 0.2vw;
+  left: -3%;
+  top: 0;
+  background-color: rgb(31, 31, 31);
+}
+
+.shoes-box {
+  height: 80%;
+  width: 100%;
+  /* background-color: salmon; */
+  border-radius: 1vw;
+  position: relative;
+  box-shadow: 0px 0px 10px #000000;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  border-top-left-radius: 1vw;
+  border-top-right-radius: 1vw;
+  left: 0;
+  height: 41%;
+  width: 100%;
+  background-color: rgb(210, 4, 114);
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  border-top-left-radius: 1vw;
+  border-top-right-radius: 1vw;
+  left: 0;
+  height: 41%;
+  width: 100%;
+  background-color: rgb(17, 154, 79);
+}
+
+.overlay3 {
+  position: absolute;
+  top: 0;
+  border-top-left-radius: 1vw;
+  border-top-right-radius: 1vw;
+  left: 0;
+  height: 41%;
+  width: 100%;
+  background-color: rgb(31, 31, 31);
+}
+
+.shoes-box > img {
+  position: absolute;
+  height: 35vw;
+  top: -40%;
+  left: 50%;
+  object-fit: cover;
+  transform: translateX(-60%) rotate(-30deg);
+}
+
+.shoes-box .img2 {
+  height: 25vw;
+  top: -25%;
+  /* transform: translateX(-60%) rotate(90deg); */
+}
+
+.shoes-box .img3 {
+  height: 30vw;
+  top: -25%;
+  /* transform: translateX(-60%) rotate(90deg); */
+}
+
+.shoes-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  margin-top: 6vw;
+}
+
+.dets {
+  padding: 0 2vw;
+  margin-top: 2vw;
+}
+
+.dets > h3 {
+  font-weight: 500;
+  opacity: 0.5;
+  font-size: 1.3vw;
+}
+
+.dets > h1 {
+  font-weight: 700;
+  font-size: 1.7vw;
+  margin-top: 0.5vw;
+}
+
+.dets > p {
+  margin-top: 2vw;
+  opacity: 0.6;
+}
+
+.dets > button {
+  margin-top: 2vw;
+  padding: 1vw 2vw;
+  border: none;
+  border-radius: 3vw;
+  background-color: rebeccapurple;
+  color: #fff;
+}
+
+.dets > .btn2 {
+  background-color: rgb(17, 154, 79);
+}
+
+.dets > .btn3 {
+  background-color: rgb(31, 31, 31);
+}
